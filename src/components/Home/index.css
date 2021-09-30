@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+.homeMain {
+  color: #ffffff;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.infoContainer {
+  width: 95vw;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.homeHeading {
+  font-size: 85px;
+  margin: 20px;
+  font-weight: 600;
+}
+.homePara {
+  font-size: 25px;
+  margin: 20px;
+}
+.homeBtn {
+  margin: 20px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 18px;
+  width: 120px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.headerIconsContainer {
+  display: none;
+}
+@media (max-width: 767px) {
+  .homeMain {
+    align-items: flex-start;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  }
+  .homeHeading {
+    font-size: 35px;
+    margin: 10px;
+  }
+  .homePara {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .homeBtn {
+    margin: 10px;
+    font-size: 12px;
+    padding: 8px;
+    width: 90px;
+  }
+  .headerLogoutBtn {
+    display: none;
+  }
+  .headerIconsContainer {
+    display: block;
+  }
+}
+.headerIcon {
+  color: #f9fafc;
+  font-size: 25px;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+.headerLogoutIconBtn {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+}

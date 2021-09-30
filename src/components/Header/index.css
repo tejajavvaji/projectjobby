@@ -1,0 +1,52 @@
+.headerMain {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 45px;
+  align-items: center;
+}
+.headerLogo {
+  width: 140px;
+}
+.linksContainer {
+  display: flex;
+}
+.headerLink {
+  color: #d5ebef;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.headerLogoutBtn {
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  width: 110px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.headerIconsContainer {
+  list-style-type: none;
+  display: none;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .headerMain {
+    padding: 15px;
+  }
+  .linksContainer {
+    display: none;
+    padding: 10px;
+  }
+  .headerLogo {
+    width: 80px;
+  }
+  .headerIconsContainer {
+    display: flex !important;
+  }
+}

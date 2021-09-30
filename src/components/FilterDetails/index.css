@@ -1,0 +1,19 @@
+.filterMain {
+  color: white;
+}
+.filterDataContainer {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 2px solid #5a677a;
+}
+.filterTypeList {
+  list-style-type: none;
+  padding: 0;
+}
+.filterTypeListItem {
+  margin-top: 20px;
+}
+.filterTypeLabel {
+  font-size: 12px;
+  margin-left: 10px;
+}
